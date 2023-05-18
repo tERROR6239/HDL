@@ -1,0 +1,14 @@
+vhdtdtfi -lib work Decoder3_8.vhd -prj Lab2 -o Decoder3_8.spl -module Decoder3_8 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Decoder3_8.spl {C:/Documents and Settings/Lab2/Decoder3_8.sym} 
+vhdtdtfi -lib work Decoder3_8.vhd -prj Lab2 -o Decoder3_8.spl -module Decoder3_8 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Decoder3_8.spl {C:/Documents and Settings/Lab2/Decoder3_8.sym} 
+vhdtdtfi -lib work Decoder3_8.vhd -prj Lab2 -o Decoder3_8.spl -module Decoder3_8 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Decoder3_8.spl {C:/Documents and Settings/Lab2/Decoder3_8.sym} 
+vhdtdtfi -lib work Decoder3_8.vhd -prj Lab2 -o Decoder3_8.spl -module Decoder3_8 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Decoder3_8.spl {C:/Documents and Settings/Lab2/Decoder3_8.sym} 
+vhdtdtfi -lib work Decoder3_8.vhd -prj Lab2 -o Decoder3_8.spl -module Decoder3_8 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Decoder3_8.spl {C:/Documents and Settings/Lab2/Decoder3_8.sym} 
+vhdtdtfi -lib work Decoder3_8.vhd -prj Lab2 -o Decoder3_8.spl -module Decoder3_8 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Decoder3_8.spl {C:/Documents and Settings/Lab2/Decoder3_8.sym} 
+vhdtdtfi -lib work Decoder3_8.vhd -prj Lab2 -o Decoder3_8.spl -module Decoder3_8 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Decoder3_8.spl {C:/Documents and Settings/Lab2/Decoder3_8.sym} 

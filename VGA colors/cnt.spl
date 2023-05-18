@@ -1,0 +1,7 @@
+[Inputs]
+res
+clk
+[Outputs]
+dec_inv
+=t[3:0]=
+[BiDir]

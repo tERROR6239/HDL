@@ -1,0 +1,6 @@
+NET "res" LOC = M4;
+NET "clk" LOC = A7;
+NET "q[0]" LOC = P6;
+NET "q[1]" LOC = P7;
+NET "q[2]" LOC = M11;
+NET "q[3]" LOC = M5;

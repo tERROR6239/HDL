@@ -1,0 +1,40 @@
+vhdtdtfi -lib work div1.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl D:/Docs/Desktop/Lab2/div.sym 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl {C:/Users/Err/Desktop/VGA Tiktak/div.sym} 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl {C:/Users/Err/Desktop/VGA Tiktak/div.sym} 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl {C:/Users/Err/Desktop/VGA Tiktak/div.sym} 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl {C:/Users/Err/Desktop/VGA Tiktak/div.sym} 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl {D:/tERROR/Doktorat/VHDL 2013/VGA colors/div.sym} 
+vhdtdtfi -lib work div.vhd -prj Lab2 -o div.spl -module div -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl {D:/tERROR/Doktorat/VHDL 2013/VGA colors/div.sym} 

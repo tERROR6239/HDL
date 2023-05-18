@@ -1,0 +1,9 @@
+[Inputs]
+res
+mclk
+[Outputs]
+dclk
+dec4
+clkk
+clk
+[BiDir]

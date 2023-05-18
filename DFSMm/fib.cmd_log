@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/tERROR/Doktorat/VHDL 2014/DFSM/fib.xst" -ofn "D:/tERROR/Doktorat/VHDL 2014/DFSM/fib.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "fib.ngc" fib.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fib_map.ncd fib.ngd fib.pcf 
+par -w -intstyle ise -ol high -t 1 fib_map.ncd fib.ncd fib.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fib.twx fib.ncd -o fib.twr fib.pcf 
+bitgen -intstyle ise -f fib.ut fib.ncd 

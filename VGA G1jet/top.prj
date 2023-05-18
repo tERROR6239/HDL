@@ -1,0 +1,7 @@
+vhdl work "mux2.vhd"
+vhdl work "mux.vhd"
+vhdl work "div.vhd"
+vhdl work "counter1.vhd"
+vhdl work "counter.vhd"
+vhdl work "control2.vhd"
+vhdl work "top.vhf"

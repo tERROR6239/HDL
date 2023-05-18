@@ -1,0 +1,2 @@
+vhdtdtfi -lib work control2.vhd -prj Lab2 -o control2.spl -module control2 -template C:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control2.spl {C:/Users/Err/Desktop/VGA Tiktak/control2.sym} 

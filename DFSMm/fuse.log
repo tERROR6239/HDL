@@ -1,0 +1,20 @@
+Running: C:\Xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/tERROR/Doktorat/VHDL 2014/DFSMm/fibtest_isim_beh.exe -prj D:/tERROR/Doktorat/VHDL 2014/DFSMm/fibtest_beh.prj work.fibtest 
+ISim P.40xd (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/tERROR/Doktorat/VHDL 2014/DFSMm/DFSM.vhd" into library work
+Parsing VHDL file "D:/tERROR/Doktorat/VHDL 2014/DFSMm/fibtest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture arch of entity fib [fib_default]
+Compiling architecture behavior of entity fibtest
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 6 VHDL Units
+Built simulation executable D:/tERROR/Doktorat/VHDL 2014/DFSMm/fibtest_isim_beh.exe
+Fuse Memory Usage: 34176 KB
+Fuse CPU Usage: 779 ms

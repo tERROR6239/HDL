@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="754" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">622</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">ckOut</arg>&apos; of component &apos;<arg fmt="%s" index="4">ClkDllDiv16</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">683</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FlashByte</arg>&apos; of component &apos;<arg fmt="%s" index="4">NexysOnBoardMemTest</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">683</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TestCtrlEnabled</arg>&apos; of component &apos;<arg fmt="%s" index="4">NexysOnBoardMemTest</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">683</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">HandShakeReqOut</arg>&apos; of component &apos;<arg fmt="%s" index="4">NexysOnBoardMemTest</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">683</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ctlMsmDoneOut</arg>&apos; of component &apos;<arg fmt="%s" index="4">NexysOnBoardMemTest</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">778</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">MemCtrlEnabled</arg>&apos; of component &apos;<arg fmt="%s" index="4">NexysOnBoardMemCtrl</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">778</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FlashByte</arg>&apos; of component &apos;<arg fmt="%s" index="4">NexysOnBoardMemCtrl</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/BlockRamCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">199</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/BlockRamCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">202</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllDiv16.vhd</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK0</arg>&apos; of component &apos;<arg fmt="%s" index="4">CLKDLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllDiv16.vhd</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK180</arg>&apos; of component &apos;<arg fmt="%s" index="4">CLKDLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllDiv16.vhd</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK270</arg>&apos; of component &apos;<arg fmt="%s" index="4">CLKDLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllDiv16.vhd</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK90</arg>&apos; of component &apos;<arg fmt="%s" index="4">CLKDLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllDiv16.vhd</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LOCKED</arg>&apos; of component &apos;<arg fmt="%s" index="4">CLKDLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllDiv16.vhd</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">CLKDLL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">190</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake</arg>&gt; has a width of <arg fmt="%d" index="4">42</arg> bits but assigned expression is <arg fmt="%d" index="5">36</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">192</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake</arg>&gt; has a width of <arg fmt="%d" index="4">42</arg> bits but assigned expression is <arg fmt="%d" index="5">36</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">200</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">7</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">202</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">7</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">204</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">5</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">206</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">5</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">212</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">4</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">214</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">4</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">222</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">7</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">224</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">7</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">228</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">5</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">230</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">5</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">232</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">4</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">234</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">NextSnake&lt;0&gt;</arg>&gt; has a width of <arg fmt="%d" index="4">6</arg> bits but assigned expression is <arg fmt="%d" index="5">4</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">186</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;Target&gt;, &lt;NextTarget&gt;, &lt;Direction&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">249</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;Target&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/Demo.vhd</arg>&quot; line <arg fmt="%d" index="2">266</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;segPwm&gt;, &lt;Target&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/EppCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">307</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;EppAstb&gt;, &lt;EppDstb&gt;, &lt;HandShakeReqIn&gt;, &lt;ctlEppDoneIn&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/NexysOnBoardMemTest.vhd</arg>&quot; line <arg fmt="%d" index="2">563</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/NexysOnBoardMemTest.vhd</arg>&quot; line <arg fmt="%d" index="2">738</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/NexysOnBoardMemTest.vhd</arg>&quot; line <arg fmt="%d" index="2">593</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;regMemAdr&gt;, &lt;stMsmCur&gt;, &lt;regMemRdData&gt;, &lt;regMemWrData&gt;, &lt;flagRightCode&gt;</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/NexysOnBoardMemTest.vhd</arg>&quot; line <arg fmt="%d" index="2">819</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/NexysOnBoardMemTest.vhd</arg>&quot; line <arg fmt="%d" index="2">768</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;stTestCur&gt;, &lt;flagTestRun&gt;, &lt;flagMsmWrCycle&gt;, &lt;DelayCnt&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/NexysOnBoardMemTest.vhd</arg>&quot; line <arg fmt="%d" index="2">872</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;stTestCur&gt;, &lt;regMemRdData&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">187</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">middle</arg>&apos; of component &apos;<arg fmt="%s" index="4">mouse_controller</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">187</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">right</arg>&apos; of component &apos;<arg fmt="%s" index="4">mouse_controller</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">187</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">new_event</arg>&apos; of component &apos;<arg fmt="%s" index="4">mouse_controller</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">187</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">zpos</arg>&apos; of component &apos;<arg fmt="%s" index="4">mouse_controller</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.vhf</arg>&quot; line <arg fmt="%d" index="2">223</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">busy</arg>&apos; of component &apos;<arg fmt="%s" index="4">ps2interface</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">73</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK0</arg>&apos; of component &apos;<arg fmt="%s" index="4">CLKDLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">73</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK180</arg>&apos; of component &apos;<arg fmt="%s" index="4">CLKDLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">73</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK270</arg>&apos; of component &apos;<arg fmt="%s" index="4">CLKDLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">73</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK90</arg>&apos; of component &apos;<arg fmt="%s" index="4">CLKDLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">73</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LOCKED</arg>&apos; of component &apos;<arg fmt="%s" index="4">CLKDLL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/clkDllCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">73</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">CLKDLL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/DispCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">84</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;Horigin&gt;, &lt;Vorigin&gt;, &lt;inRed&gt;, &lt;inGreen&gt;, &lt;inBlue&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Err/Desktop/Nexys 2 500K BIST/NexysOnBoardMemCtrl.vhd</arg>&quot; line <arg fmt="%d" index="2">661</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;ctlMsmStartIn&gt;, &lt;ComponentSelect&gt;, &lt;regEppAdrIn&gt;, &lt;ctlMcrWord&gt;, &lt;ctlEppRdCycleIn&gt;, &lt;regMemAdr&gt;, &lt;DelayCnt&gt;, &lt;busMemIn&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Stream6Bytes&lt;47&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">configReg&lt;7:1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ctlMsmDwrIn</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">EppWrDataIn</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ctlEppRdCycleIn</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RamWait</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">regEppAdrIn&lt;7:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ctlMsmStartIn</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="old" >Output &lt;<arg fmt="%s" index="1">ctlMsmDoneOut</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">FlashStSts</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">ctlMsmWrCmd</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">busMemOut</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">adrIn&lt;7:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">adrIn&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">greenDemoIn&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">blueDemoIn&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">redDemoIn&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RamWait</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">FlashStSts</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Hcnt&lt;10&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Vcnt&lt;10&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Horigin</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Vorigin</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">Rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">ckX2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">segPwm&lt;7&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">ckX2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">13</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">14</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">15</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">16</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">17</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">18</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">19</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">20</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">21</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">22</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">23</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">24</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">25</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">26</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">27</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">28</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">29</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">30</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">31</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">x_max_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instMouseController</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">x_max_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instMouseController</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">y_max_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instMouseController</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">y_max_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instMouseController</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_HS</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instSynchro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_VS</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instSynchro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Target_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instDemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">10</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">11</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">12</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">13</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">14</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">15</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">16</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">17</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">18</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">19</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">20</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">21</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">22</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">23</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">24</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">25</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">26</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">27</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">28</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">29</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">30</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">31</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">10</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">11</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">12</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">red_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instMouseDisplayer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">blue_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instMouseDisplayer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">blue_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instMouseDisplayer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">green_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">instMouseDisplayer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="old" >in unit <arg fmt="%s" index="1">instVgaPs2Demo/instSynchro</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_HS</arg> and <arg fmt="%s" index="3">Mtridata_VS</arg> <arg fmt="%s" index="4">Mtridata_VS</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_RamData</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3029" delta="old" >HDL ADVISOR - LUT implementation is currently selected for the ROM &lt;<arg fmt="%s" index="1">Mrom_mousepixel_rom0000</arg>&gt;. If you want the register to be removed and the ROM to be implemented as read-only block RAM, please change the ROM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3029" delta="old" >HDL ADVISOR - LUT implementation is currently selected for the ROM &lt;<arg fmt="%s" index="1">Mrom_rx_parity_rom0000</arg>&gt;. If you want the register to be removed and the ROM to be implemented as read-only block RAM, please change the ROM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3029" delta="old" >HDL ADVISOR - LUT implementation is currently selected for the ROM &lt;<arg fmt="%s" index="1">Mrom_tx_parity_rom0000</arg>&gt;. If you want the register to be removed and the ROM to be implemented as read-only block RAM, please change the ROM implementation style accordingly.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">configReg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ConfReg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_HS</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Synchro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_VS</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Synchro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="old" >in unit <arg fmt="%s" index="1">Synchro</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_HS</arg> and <arg fmt="%s" index="3">Mtridata_VS</arg> <arg fmt="%s" index="4">Mtridata_VS</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Target_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Demo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LPM_LATCH_34</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">21 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;30&gt; &lt;29&gt; &lt;28&gt; &lt;27&gt; &lt;26&gt; &lt;25&gt; &lt;24&gt; &lt;23&gt; &lt;22&gt; &lt;21&gt; &lt;20&gt; &lt;19&gt; &lt;18&gt; &lt;17&gt; &lt;16&gt; &lt;15&gt; &lt;14&gt; &lt;13&gt; &lt;12&gt; &lt;11&gt; &lt;10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LPM_LATCH_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">21 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;30&gt; &lt;29&gt; &lt;28&gt; &lt;27&gt; &lt;26&gt; &lt;25&gt; &lt;24&gt; &lt;23&gt; &lt;22&gt; &lt;21&gt; &lt;20&gt; &lt;19&gt; &lt;18&gt; &lt;17&gt; &lt;16&gt; &lt;15&gt; &lt;14&gt; &lt;13&gt; &lt;12&gt; &lt;11&gt; &lt;10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">x_max_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mouse_controller</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;x_max_8&gt; &lt;y_max_5&gt; &lt;y_max_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">x_max_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mouse_controller</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;x_max_1&gt; &lt;x_max_2&gt; &lt;x_max_3&gt; &lt;x_max_4&gt; &lt;x_max_5&gt; &lt;x_max_6&gt; &lt;x_max_9&gt; &lt;y_max_0&gt; &lt;y_max_1&gt; &lt;y_max_2&gt; &lt;y_max_3&gt; &lt;y_max_4&gt; &lt;y_max_6&gt; &lt;y_max_7&gt; &lt;y_max_8&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LPM_LATCH_34</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LPM_LATCH_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">x_max_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mouse_controller</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DelayCnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NexysOnBoardMemTest</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DelayCnt_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NexysOnBoardMemTest</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2040" delta="old" >Unit <arg fmt="%s" index="1">DemoWithMemCfg</arg>: <arg fmt="%d" index="2">51</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">Synchro</arg>: <arg fmt="%d" index="2">2</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/x_max_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">DemoWithMemCfg</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/x_max_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">DemoWithMemCfg</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instShiftReg/ShiftReg6_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/middle</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/right</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/zpos_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/zpos_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/zpos_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/zpos_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/right_down</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/new_event</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseController/middle_down</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseDisplayer/green_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseDisplayer/blue_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseDisplayer/blue_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">instVgaPs2Demo/instMouseDisplayer/red_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DemoWithMemCfg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="615" delta="old" ><arg fmt="%s" index="1">Flip flop associated with net</arg> <arg fmt="%s" index="2">XLXN_1938</arg> not found, property <arg fmt="%s" index="3">IOB</arg> not attached.
+</msg>
+
+</messages>
+

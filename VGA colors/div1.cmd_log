@@ -1,0 +1,6 @@
+vhdtdtfi -lib work div1.vhd -prj Lab2 -o div1.spl -module div1 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div1.spl {C:/Documents and Settings/Lab2/div1.sym} 
+vhdtdtfi -lib work div1.vhd -prj Lab2 -o div1.spl -module div1 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div1.spl {C:/Documents and Settings/Lab2/div1.sym} 
+vhdtdtfi -lib work div1.vhd -prj Lab2 -o div1.spl -module div1 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div1.spl {C:/Documents and Settings/Lab2/div1.sym} 

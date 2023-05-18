@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">RamWait_IBUF</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="old" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">1</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">FlashStSts_IBUF</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/XLXN_469&lt;4&gt;1641</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00003461_18_f5_01_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2510</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_21_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_243</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_22_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_15</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_14_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_254</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_15_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_265</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_16_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_215</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_20_f5_3</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2210</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_21_f5_3</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_225</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_22_f5_0</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_162</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_15_f5_0</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_172</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_16_f5_0</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_30</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_16_f5_1</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2211</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_16_f5_2</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_222</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_16_f5_4</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_22</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_16_f5_5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_273</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_17_f5_0</arg>.  <arg fmt="%z" index="3">There is more than one F5MUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2313</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_17_f5_2</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2314</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_17_f5_3</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_26</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_17_f5_5</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_232</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_17_f5_6</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_231</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_17_f5_8</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_247</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_18_f5_2</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_241</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_18_f5_7</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_271</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_18_f5_9</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2321</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_19_f5_1</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_267</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_19_f5_3</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_202</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_19_f5_4</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00002641</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2412_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00002641</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2414_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00001681</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2319_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/XLXN_469&lt;5&gt;_31</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/XLXN_469&lt;5&gt;21_2_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_166</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_14_f5_2</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2215</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00006771_15_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_226</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00006771_20_f5_4</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/XLXN_469&lt;4&gt;_mmx_out8142</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00006771_21_f5_1</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_239</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00006771_21_f5_3</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/XLXN_469&lt;4&gt;_mmx_out1211</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00006771_16_f5_1</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_2316</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00006771_16_f5_2</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_191</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00006771_17_f5_4</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_20</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00006771_18_f5_2</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_203</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00006771_18_f5_4</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_27</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00001811_18_f5_10</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/XLXN_469&lt;4&gt;1641</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00003461_18_f5_1</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/XLXN_469&lt;4&gt;1661</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00003461_19_f5_7</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex0000201</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_238_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00002591</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_262_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/instVideoRom/Mrom__varindex00001601</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/instVideoRom/Mrom__varindex00005121_259_f5</arg>.  <arg fmt="%z" index="3">There is more than one F5MUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/XLXN_469&lt;5&gt;_2_f5_3</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/XLXN_469&lt;5&gt;21_2_f5_0</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">instVgaPs2Demo/XLXN_469&lt;5&gt;_2_f5_31</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">instVgaPs2Demo/XLXN_469&lt;5&gt;_2_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">RamWait_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">FlashStSts_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">RsTx</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">HSYNC</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">VSYNC</arg> is set but the tri state is not configured. 
+</msg>
+
+</messages>
+

@@ -1,0 +1,10 @@
+[Inputs]
+res
+mclk
+=s[1:0]=
+[Outputs]
+dclk
+dec4
+clkk
+clk
+[BiDir]

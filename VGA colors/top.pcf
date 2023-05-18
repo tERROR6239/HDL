@@ -1,0 +1,35 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Nov 27 10:28:19 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "up" LOCATE = SITE "L3" LEVEL 1;
+COMP "res" LOCATE = SITE "G12" LEVEL 1;
+COMP "s<0>" LOCATE = SITE "E2" LEVEL 1;
+COMP "s<1>" LOCATE = SITE "N3" LEVEL 1;
+COMP "dec4" LOCATE = SITE "B9" LEVEL 1;
+COMP "left" LOCATE = SITE "A7" LEVEL 1;
+COMP "mclk" LOCATE = SITE "B8" LEVEL 1;
+COMP "down" LOCATE = SITE "P11" LEVEL 1;
+COMP "dec_inv" LOCATE = SITE "A9" LEVEL 1;
+COMP "buff<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "buff<1>" LOCATE = SITE "A3" LEVEL 1;
+COMP "buff<2>" LOCATE = SITE "J3" LEVEL 1;
+COMP "buff<3>" LOCATE = SITE "B5" LEVEL 1;
+COMP "buff<4>" LOCATE = SITE "C6" LEVEL 1;
+COMP "buff<5>" LOCATE = SITE "B6" LEVEL 1;
+COMP "buff<6>" LOCATE = SITE "C5" LEVEL 1;
+COMP "buff<7>" LOCATE = SITE "B7" LEVEL 1;
+COMP "form<0>" LOCATE = SITE "G3" LEVEL 1;
+COMP "form<1>" LOCATE = SITE "F3" LEVEL 1;
+COMP "formm" LOCATE = SITE "C11" LEVEL 1;
+COMP "right" LOCATE = SITE "M4" LEVEL 1;
+COMP "col<0>" LOCATE = SITE "B4" LEVEL 1;
+COMP "col<1>" LOCATE = SITE "K3" LEVEL 1;
+COMP "dec0_3<0>" LOCATE = SITE "C12" LEVEL 1;
+COMP "dec0_3<1>" LOCATE = SITE "A13" LEVEL 1;
+COMP "dec0_3<2>" LOCATE = SITE "C13" LEVEL 1;
+COMP "dec0_3<3>" LOCATE = SITE "D12" LEVEL 1;
+NET "mclk_BUFGP/IBUFG" BEL "mclk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

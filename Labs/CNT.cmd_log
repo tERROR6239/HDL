@@ -1,0 +1,2 @@
+vhdtdtfi -lib work cnt.vhd -prj AITlab11 -o CNT.spl -module CNT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e CNT.spl {D:/Work 2017/AIT Lab/VHDL/AITlab11/CNT.sym} 

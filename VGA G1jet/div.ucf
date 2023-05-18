@@ -1,0 +1,4 @@
+##
+NET "res" LOC = A7;
+NET "mclk" LOC = B8;
+NET "mclk" LOC = M5;

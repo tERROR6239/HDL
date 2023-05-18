@@ -1,0 +1,7 @@
+[Inputs]
+Clock_enable
+Clock
+Reset
+[Outputs]
+=Output[0:3]=
+[BiDir]

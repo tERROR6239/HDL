@@ -1,0 +1,831 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Work 2017/AIT Lab/VHDL/VGA colors/control2.vhd" in Library work.
+Architecture behavioral of Entity control2 is up to date.
+Compiling vhdl file "D:/Work 2017/AIT Lab/VHDL/VGA colors/counter.vhd" in Library work.
+Architecture behavioral of Entity cnt is up to date.
+Compiling vhdl file "D:/Work 2017/AIT Lab/VHDL/VGA colors/counter1.vhd" in Library work.
+Architecture behavioral of Entity control is up to date.
+Compiling vhdl file "D:/Work 2017/AIT Lab/VHDL/VGA colors/div.vhd" in Library work.
+Architecture behavioral of Entity div is up to date.
+Compiling vhdl file "D:/Work 2017/AIT Lab/VHDL/VGA colors/mux.vhd" in Library work.
+Architecture behavioral of Entity mux is up to date.
+Compiling vhdl file "D:/Work 2017/AIT Lab/VHDL/VGA colors/mux2.vhd" in Library work.
+Architecture behavioral of Entity mux2 is up to date.
+Compiling verilog file "top.vf" in library work
+Module <top> compiled
+No errors in compilation
+Analysis of file <"top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <top> in library <work>.
+
+Analyzing hierarchy for entity <cnt> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <control2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <div> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <control> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <top>.
+WARNING:Xst:852 - "top.vf" line 118: Unconnected input port 'clk' of instance 'XLXI_68' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 118: Unconnected input port 'col' of instance 'XLXI_68' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 118: Unconnected input port 'down' of instance 'XLXI_68' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 118: Unconnected input port 'form' of instance 'XLXI_68' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 118: Unconnected input port 'idec4' of instance 'XLXI_68' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 118: Unconnected input port 'left' of instance 'XLXI_68' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 118: Unconnected input port 'res' of instance 'XLXI_68' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 118: Unconnected input port 'right' of instance 'XLXI_68' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 118: Unconnected input port 'up' of instance 'XLXI_68' is tied to GND.
+Module <top> is correct for synthesis.
+ 
+Analyzing Entity <cnt> in library <work> (Architecture <behavioral>).
+Entity <cnt> analyzed. Unit <cnt> generated.
+
+Analyzing Entity <mux> in library <work> (Architecture <behavioral>).
+Entity <mux> analyzed. Unit <mux> generated.
+
+Analyzing Entity <control2> in library <work> (Architecture <behavioral>).
+INFO:Xst:2679 - Register <shift1$mux0000> in unit <control2> has a constant value of 00011000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift2$mux0000> in unit <control2> has a constant value of 00011100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift3$mux0000> in unit <control2> has a constant value of 00001100 during circuit operation. The register is replaced by logic.
+Entity <control2> analyzed. Unit <control2> generated.
+
+Analyzing Entity <mux2> in library <work> (Architecture <behavioral>).
+Entity <mux2> analyzed. Unit <mux2> generated.
+
+Analyzing Entity <div> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/Work 2017/AIT Lab/VHDL/VGA colors/div.vhd" line 37: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <s>
+Entity <div> analyzed. Unit <div> generated.
+
+Analyzing Entity <control> in library <work> (Architecture <behavioral>).
+INFO:Xst:2679 - Register <shift1$mux0000> in unit <control> has a constant value of 00000001 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift2$mux0000> in unit <control> has a constant value of 00000011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift3$mux0000> in unit <control> has a constant value of 00000111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift4$mux0000> in unit <control> has a constant value of 00001111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift5$mux0000> in unit <control> has a constant value of 00011111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift6$mux0000> in unit <control> has a constant value of 00111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift7$mux0000> in unit <control> has a constant value of 01111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift8$mux0000> in unit <control> has a constant value of 11111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift9$mux0000> in unit <control> has a constant value of 11111110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift10$mux0000> in unit <control> has a constant value of 11111100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift11$mux0000> in unit <control> has a constant value of 11111000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift12$mux0000> in unit <control> has a constant value of 11110000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift13$mux0000> in unit <control> has a constant value of 11100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift14$mux0000> in unit <control> has a constant value of 11000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift15$mux0000> in unit <control> has a constant value of 10000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift16$mux0000> in unit <control> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+Entity <control> analyzed. Unit <control> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <shift2<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift15<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift12<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift2<7>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift15<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift12<1>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift15<4>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift12<2>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift7<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift15<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift12<3>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift7<1>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift15<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift12<4>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift7<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift4<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift15<7>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift12<5>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift7<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift4<1>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift12<6>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift7<4>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift4<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift1<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift12<7>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift7<5>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift4<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift1<1>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift7<6>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift4<4>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift1<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <row> in unit <control2> has a constant value of XXXX during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift7<7>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift4<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift1<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift4<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift1<4>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift14<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift4<7>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift1<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift14<1>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift1<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift14<2>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift11<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift1<7>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift9<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift14<3>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift11<1>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift9<1>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift14<4>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift11<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift9<2>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift6<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift14<5>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift11<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift9<3>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift6<1>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift14<6>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift11<4>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift9<4>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift6<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift3<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift14<7>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift11<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift9<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift6<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift3<1>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift11<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift9<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift6<4>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift3<2>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift11<7>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift9<7>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift6<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift3<3>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift6<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift3<4>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift16<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift6<7>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift3<5>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift16<1>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift3<6>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift16<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift13<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift3<7>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift16<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift13<1>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift16<4>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift13<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift10<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift8<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift16<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift13<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift10<1>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift8<1>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift16<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift13<4>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift10<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift8<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift5<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift16<7>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift13<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift10<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift8<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift5<1>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift13<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift10<4>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift8<4>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift5<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift2<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift13<7>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift10<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift8<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift5<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift2<1>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift10<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift8<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift5<4>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift2<2>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift10<7>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift8<7>> in unit <control2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift5<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift2<3>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift5<6>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift2<4>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift15<0>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift5<7>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift2<5>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <shift15<1>> in unit <control2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <cnt>.
+    Related source file is "D:/Work 2017/AIT Lab/VHDL/VGA colors/counter.vhd".
+    Found 4-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <cnt> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is "D:/Work 2017/AIT Lab/VHDL/VGA colors/mux.vhd".
+    Found 8-bit 16-to-1 multiplexer for signal <z>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <control2>.
+    Related source file is "D:/Work 2017/AIT Lab/VHDL/VGA colors/control2.vhd".
+WARNING:Xst:647 - Input <col> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <idec4> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <control2> synthesized.
+
+
+Synthesizing Unit <mux2>.
+    Related source file is "D:/Work 2017/AIT Lab/VHDL/VGA colors/mux2.vhd".
+Unit <mux2> synthesized.
+
+
+Synthesizing Unit <div>.
+    Related source file is "D:/Work 2017/AIT Lab/VHDL/VGA colors/div.vhd".
+    Found 24-bit up counter for signal <q>.
+    Found 1-bit 4-to-1 multiplexer for signal <z>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Multiplexer(s).
+Unit <div> synthesized.
+
+
+Synthesizing Unit <control>.
+    Related source file is "D:/Work 2017/AIT Lab/VHDL/VGA colors/counter1.vhd".
+    Found 4x128-bit ROM for signal <form$rom0000>.
+    Found 8-bit 16-to-1 multiplexer for signal <a>.
+    Found 8-bit 16-to-1 multiplexer for signal <b>.
+    Found 8-bit 16-to-1 multiplexer for signal <c>.
+    Found 8-bit 16-to-1 multiplexer for signal <d>.
+    Found 8-bit 16-to-1 multiplexer for signal <e>.
+    Found 8-bit 16-to-1 multiplexer for signal <f>.
+    Found 8-bit 16-to-1 multiplexer for signal <g>.
+    Found 8-bit 16-to-1 multiplexer for signal <h>.
+    Found 8-bit 16-to-1 multiplexer for signal <i>.
+    Found 8-bit 16-to-1 multiplexer for signal <j>.
+    Found 8-bit 16-to-1 multiplexer for signal <k>.
+    Found 8-bit 16-to-1 multiplexer for signal <l>.
+    Found 8-bit 16-to-1 multiplexer for signal <m>.
+    Found 8-bit 16-to-1 multiplexer for signal <n>.
+    Found 8-bit 16-to-1 multiplexer for signal <o>.
+    Found 8-bit 16-to-1 multiplexer for signal <p>.
+    Found 1-bit 4-to-1 multiplexer for signal <coll>.
+    Found 4-bit updown counter for signal <row>.
+    Found 8-bit register for signal <shift1>.
+    Found 8-bit register for signal <shift10>.
+    Found 8-bit register for signal <shift11>.
+    Found 8-bit register for signal <shift12>.
+    Found 8-bit register for signal <shift13>.
+    Found 8-bit register for signal <shift14>.
+    Found 8-bit register for signal <shift15>.
+    Found 8-bit register for signal <shift16>.
+    Found 8-bit register for signal <shift2>.
+    Found 8-bit register for signal <shift3>.
+    Found 8-bit register for signal <shift4>.
+    Found 8-bit register for signal <shift5>.
+    Found 8-bit register for signal <shift6>.
+    Found 8-bit register for signal <shift7>.
+    Found 8-bit register for signal <shift8>.
+    Found 8-bit register for signal <shift9>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred 129 Multiplexer(s).
+Unit <control> synthesized.
+
+
+Synthesizing Unit <top>.
+    Related source file is "top.vf".
+Unit <top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4x128-bit ROM                                         : 1
+# Counters                                             : 3
+ 24-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 128
+ 1-bit register                                        : 128
+# Multiplexers                                         : 20
+ 1-bit 4-to-1 multiplexer                              : 2
+ 8-bit 16-to-1 multiplexer                             : 18
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4x128-bit ROM                                         : 1
+# Counters                                             : 3
+ 24-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 128
+ Flip-Flops                                            : 128
+# Multiplexers                                         : 19
+ 1-bit 4-to-1 multiplexer                              : 1
+ 8-bit 16-to-1 multiplexer                             : 18
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <top> ...
+
+Optimizing unit <control> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 75.
+FlipFlop XLXI_73/row_0 has been replicated 2 time(s)
+FlipFlop XLXI_73/row_1 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 163
+ Flip-Flops                                            : 163
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top.ngr
+Top Level Output File Name         : top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 27
+
+Cell Usage :
+# BELS                             : 2496
+#      GND                         : 1
+#      INV                         : 20
+#      LUT1                        : 23
+#      LUT2                        : 88
+#      LUT3                        : 1106
+#      LUT4                        : 140
+#      LUT4_L                      : 1
+#      MUXCY                       : 23
+#      MUXF5                       : 661
+#      MUXF6                       : 272
+#      MUXF7                       : 136
+#      VCC                         : 1
+#      XORCY                       : 24
+# FlipFlops/Latches                : 163
+#      FDC                         : 28
+#      FDCPE                       : 128
+#      FDE                         : 7
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 26
+#      IBUF                        : 12
+#      OBUF                        : 14
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      700  out of    960    72%  
+ Number of Slice Flip Flops:            163  out of   1920     8%  
+ Number of 4 input LUTs:               1378  out of   1920    71%  
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of     83    32%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+mclk                               | BUFGP                  | 24    |
+XLXI_72/q_14                       | NONE(XLXI_39/count_0)  | 4     |
+XLXN_3001(XLXI_72/Mmux_z_2_f5:O)   | BUFG(*)(XLXI_73/row_3) | 135   |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+----------------------------------------------------------+------------------------+-------+
+Control Signal                                            | Buffer(FF name)        | Load  |
+----------------------------------------------------------+------------------------+-------+
+res                                                       | IBUF                   | 28    |
+N0(XST_GND:G)                                             | NONE(XLXI_73/shift11_1)| 16    |
+XLXI_73/shift10_0__and0000(XLXI_73/shift10_7__and000111:O)| NONE(XLXI_73/shift10_0)| 16    |
+XLXI_73/shift10_0__and0001(XLXI_73/shift10_0_mux0001111:O)| NONE(XLXI_73/shift10_0)| 16    |
+XLXI_73/shift10_1__and0000(XLXI_73/shift10_1__and000011:O)| NONE(XLXI_73/shift10_1)| 16    |
+XLXI_73/shift10_1__and0001(XLXI_73/shift10_1__and000111:O)| NONE(XLXI_73/shift10_1)| 16    |
+XLXI_73/shift10_2__and0000(XLXI_73/shift10_2__and00001:O) | NONE(XLXI_73/shift10_2)| 16    |
+XLXI_73/shift10_2__and0001(XLXI_73/shift10_6_mux0001111:O)| NONE(XLXI_73/shift10_2)| 16    |
+XLXI_73/shift10_3__and0000(XLXI_73/shift10_3__and00001:O) | NONE(XLXI_73/shift10_3)| 16    |
+XLXI_73/shift10_3__and0001(XLXI_73/shift10_3__and000111:O)| NONE(XLXI_73/shift10_3)| 16    |
+XLXI_73/shift10_4__and0000(XLXI_73/shift10_4__and00001:O) | NONE(XLXI_73/shift10_4)| 16    |
+XLXI_73/shift10_4__and0001(XLXI_73/shift10_4__and00011:O) | NONE(XLXI_73/shift10_4)| 16    |
+XLXI_73/shift10_5__and0000(XLXI_73/shift10_5__and000011:O)| NONE(XLXI_73/shift10_5)| 16    |
+XLXI_73/shift10_5__and0001(XLXI_73/shift10_5__and000111:O)| NONE(XLXI_73/shift10_5)| 16    |
+XLXI_73/shift11_0__and0000(XLXI_73/shift11_0__and00001:O) | NONE(XLXI_73/shift11_0)| 16    |
+XLXI_73/shift11_0__and0001(XLXI_73/shift11_0__and00011:O) | NONE(XLXI_73/shift11_0)| 16    |
+formm                                                     | IBUF                   | 16    |
+----------------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.088ns (Maximum Frequency: 244.648MHz)
+   Minimum input arrival time before clock: 4.876ns
+   Maximum output required time after clock: 10.397ns
+   Maximum combinational path delay: 5.631ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'mclk'
+  Clock period: 4.088ns (frequency: 244.648MHz)
+  Total number of paths / destination ports: 300 / 24
+-------------------------------------------------------------------------
+Delay:               4.088ns (Levels of Logic = 24)
+  Source:            XLXI_72/q_1 (FF)
+  Destination:       XLXI_72/q_23 (FF)
+  Source Clock:      mclk rising
+  Destination Clock: mclk rising
+
+  Data Path: XLXI_72/q_1 to XLXI_72/q_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.514   0.509  XLXI_72/q_1 (XLXI_72/q_1)
+     LUT1:I0->O            1   0.612   0.000  XLXI_72/Mcount_q_cy<1>_rt (XLXI_72/Mcount_q_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  XLXI_72/Mcount_q_cy<1> (XLXI_72/Mcount_q_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_72/Mcount_q_cy<2> (XLXI_72/Mcount_q_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<3> (XLXI_72/Mcount_q_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<4> (XLXI_72/Mcount_q_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<5> (XLXI_72/Mcount_q_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<6> (XLXI_72/Mcount_q_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<7> (XLXI_72/Mcount_q_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<8> (XLXI_72/Mcount_q_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<9> (XLXI_72/Mcount_q_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<10> (XLXI_72/Mcount_q_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<11> (XLXI_72/Mcount_q_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<12> (XLXI_72/Mcount_q_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<13> (XLXI_72/Mcount_q_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<14> (XLXI_72/Mcount_q_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<15> (XLXI_72/Mcount_q_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<16> (XLXI_72/Mcount_q_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<17> (XLXI_72/Mcount_q_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<18> (XLXI_72/Mcount_q_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<19> (XLXI_72/Mcount_q_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<20> (XLXI_72/Mcount_q_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_72/Mcount_q_cy<21> (XLXI_72/Mcount_q_cy<21>)
+     MUXCY:CI->O           0   0.051   0.000  XLXI_72/Mcount_q_cy<22> (XLXI_72/Mcount_q_cy<22>)
+     XORCY:CI->O           1   0.699   0.000  XLXI_72/Mcount_q_xor<23> (Result<23>)
+     FDC:D                     0.268          XLXI_72/q_23
+    ----------------------------------------
+    Total                      4.088ns (3.579ns logic, 0.509ns route)
+                                       (87.5% logic, 12.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_72/q_14'
+  Clock period: 2.835ns (frequency: 352.715MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               2.835ns (Levels of Logic = 1)
+  Source:            XLXI_39/count_0 (FF)
+  Destination:       XLXI_39/count_0 (FF)
+  Source Clock:      XLXI_72/q_14 rising
+  Destination Clock: XLXI_72/q_14 rising
+
+  Data Path: XLXI_39/count_0 to XLXI_39/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             74   0.514   1.084  XLXI_39/count_0 (XLXI_39/count_0)
+     INV:I->O              1   0.612   0.357  XLXI_39/Mcount_count_xor<0>11_INV_0 (Result<0>1)
+     FDC:D                     0.268          XLXI_39/count_0
+    ----------------------------------------
+    Total                      2.835ns (1.394ns logic, 1.441ns route)
+                                       (49.2% logic, 50.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_3001'
+  Clock period: 3.530ns (frequency: 283.301MHz)
+  Total number of paths / destination ports: 274 / 135
+-------------------------------------------------------------------------
+Delay:               3.530ns (Levels of Logic = 2)
+  Source:            XLXI_73/row_2 (FF)
+  Destination:       XLXI_73/row_3 (FF)
+  Source Clock:      XLXN_3001 rising
+  Destination Clock: XLXN_3001 rising
+
+  Data Path: XLXI_73/row_2 to XLXI_73/row_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q            259   0.514   1.164  XLXI_73/row_2 (XLXI_73/row_2)
+     LUT4:I2->O            1   0.612   0.360  XLXI_73/Result<3>_SW0 (N268)
+     LUT4:I3->O            1   0.612   0.000  XLXI_73/Result<3> (XLXI_73/Result<3>)
+     FDE:D                     0.268          XLXI_73/row_3
+    ----------------------------------------
+    Total                      3.530ns (2.006ns logic, 1.524ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXN_3001'
+  Total number of paths / destination ports: 865 / 267
+-------------------------------------------------------------------------
+Offset:              4.876ns (Levels of Logic = 3)
+  Source:            right (PAD)
+  Destination:       XLXI_73/shift4_1 (FF)
+  Destination Clock: XLXN_3001 rising
+
+  Data Path: right to XLXI_73/shift4_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           114   1.106   1.247  right_IBUF (right_IBUF)
+     LUT2:I0->O           16   0.612   1.031  XLXI_73/shift2_6_and00011 (XLXI_73/shift2_6_and0001)
+     LUT4:I0->O            1   0.612   0.000  XLXI_73/shift9_6_mux00011 (XLXI_73/shift9_6_mux0001)
+     FDCPE:D                   0.268          XLXI_73/shift9_6
+    ----------------------------------------
+    Total                      4.876ns (2.598ns logic, 2.278ns route)
+                                       (53.3% logic, 46.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_72/q_14'
+  Total number of paths / destination ports: 153 / 13
+-------------------------------------------------------------------------
+Offset:              8.106ns (Levels of Logic = 6)
+  Source:            XLXI_39/count_0 (FF)
+  Destination:       buff<6> (PAD)
+  Source Clock:      XLXI_72/q_14 rising
+
+  Data Path: XLXI_39/count_0 to buff<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             74   0.514   1.236  XLXI_39/count_0 (XLXI_39/count_0)
+     LUT3:I0->O            1   0.612   0.000  XLXI_41/Mmux_z_5 (XLXI_41/Mmux_z_5)
+     MUXF5:I1->O           1   0.278   0.000  XLXI_41/Mmux_z_4_f5 (XLXI_41/Mmux_z_4_f5)
+     MUXF6:I1->O           1   0.451   0.000  XLXI_41/Mmux_z_3_f6 (XLXI_41/Mmux_z_3_f6)
+     MUXF7:I1->O           1   0.451   0.426  XLXI_41/Mmux_z_2_f7 (XLXN_299<0>)
+     LUT2:I1->O            1   0.612   0.357  XLXI_70/z<0>1 (buff_0_OBUF)
+     OBUF:I->O                 3.169          buff_0_OBUF (buff<0>)
+    ----------------------------------------
+    Total                      8.106ns (6.087ns logic, 2.019ns route)
+                                       (75.1% logic, 24.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'mclk'
+  Total number of paths / destination ports: 10 / 9
+-------------------------------------------------------------------------
+Offset:              5.554ns (Levels of Logic = 2)
+  Source:            XLXI_72/q_13 (FF)
+  Destination:       dec4 (PAD)
+  Source Clock:      mclk rising
+
+  Data Path: XLXI_72/q_13 to dec4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             10   0.514   0.902  XLXI_72/q_13 (XLXI_72/q_13)
+     LUT4:I0->O            1   0.612   0.357  XLXI_70/y1 (dec4_OBUF)
+     OBUF:I->O                 3.169          dec4_OBUF (dec4)
+    ----------------------------------------
+    Total                      5.554ns (4.295ns logic, 1.259ns route)
+                                       (77.3% logic, 22.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXN_3001'
+  Total number of paths / destination ports: 3968 / 8
+-------------------------------------------------------------------------
+Offset:              10.397ns (Levels of Logic = 10)
+  Source:            XLXI_73/row_0 (FF)
+  Destination:       buff<6> (PAD)
+  Source Clock:      XLXN_3001 rising
+
+  Data Path: XLXI_73/row_0 to buff<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q            344   0.514   1.309  XLXI_73/row_0 (XLXI_73/row_0)
+     LUT3:I0->O            1   0.612   0.000  XLXI_73/Mmux_g_4_f51 (XLXI_73/Mmux_g_4_f58)
+     MUXF5:I0->O           1   0.278   0.000  XLXI_73/Mmux_g_4_f5 (XLXI_73/Mmux_g_4_f5)
+     MUXF6:I1->O           1   0.451   0.000  XLXI_73/Mmux_g_3_f6 (XLXI_73/Mmux_g_3_f6)
+     MUXF7:I1->O           1   0.451   0.426  XLXI_73/Mmux_g_2_f7 (XLXN_252<0>)
+     LUT3:I1->O            1   0.612   0.000  XLXI_41/Mmux_z_62 (XLXI_41/Mmux_z_62)
+     MUXF5:I1->O           1   0.278   0.000  XLXI_41/Mmux_z_5_f5_0 (XLXI_41/Mmux_z_5_f51)
+     MUXF6:I1->O           1   0.451   0.000  XLXI_41/Mmux_z_4_f6 (XLXI_41/Mmux_z_4_f6)
+     MUXF7:I0->O           1   0.451   0.426  XLXI_41/Mmux_z_2_f7 (XLXN_299<0>)
+     LUT2:I1->O            1   0.612   0.357  XLXI_70/z<0>1 (buff_0_OBUF)
+     OBUF:I->O                 3.169          buff_0_OBUF (buff<0>)
+    ----------------------------------------
+    Total                     10.397ns (7.879ns logic, 2.518ns route)
+                                       (75.8% logic, 24.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.631ns (Levels of Logic = 3)
+  Source:            col<0> (PAD)
+  Destination:       dec4 (PAD)
+
+  Data Path: col<0> to dec4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.387  col_0_IBUF (col_0_IBUF)
+     LUT4:I2->O            1   0.612   0.357  XLXI_70/y1 (dec4_OBUF)
+     OBUF:I->O                 3.169          dec4_OBUF (dec4)
+    ----------------------------------------
+    Total                      5.631ns (4.887ns logic, 0.744ns route)
+                                       (86.8% logic, 13.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.50 secs
+ 
+--> 
+
+Total memory usage is 302052 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
+Number of infos    :  149 (   0 filtered)
+

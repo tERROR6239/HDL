@@ -1,0 +1,5 @@
+set -tmpdir "D:/Work 2017/AIT Lab/VHDL/AITlab11/xst/projnav.tmp"
+set -xsthdpdir "D:/Work 2017/AIT Lab/VHDL/AITlab11/xst"
+elaborate
+-ifn dec3to8.prj
+-ifmt mixed

@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 11 11:36:45 2017
+# Process ID: 10072
+# Log file: D:/Work 2017/AIT Lab/VHDL/COUNTER/planAhead_run_1/planAhead.log
+# Journal file: D:/Work 2017/AIT Lab/VHDL/COUNTER/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/Work 2017/AIT Lab/VHDL/COUNTER/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin B8 [get_ports Clock]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports Clock_enable]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports Reset]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports {Output[0]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {Output[1]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {Output[2]}]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports {Output[3]}]
+endgroup
+save_constraints

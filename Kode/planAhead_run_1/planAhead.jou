@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 11 11:01:40 2017
+# Process ID: 4384
+# Log file: D:/Work 2017/AIT Lab/VHDL/Kode/planAhead_run_1/planAhead.log
+# Journal file: D:/Work 2017/AIT Lab/VHDL/Kode/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/Work 2017/AIT Lab/VHDL/Kode/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin K3 [get_ports A]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports B]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports C]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports D]
+endgroup
+save_constraints

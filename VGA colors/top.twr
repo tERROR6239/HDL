@@ -1,0 +1,161 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf div1.ucf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock s<0>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+down        |    0.057(R)|    2.954(R)|XLXN_300          |   0.000|
+form<0>     |   -0.018(R)|    3.982(R)|XLXN_300          |   0.000|
+form<1>     |   -0.002(R)|    3.906(R)|XLXN_300          |   0.000|
+formm       |    1.342(R)|    3.461(R)|XLXN_300          |   0.000|
+left        |    1.452(R)|    3.550(R)|XLXN_300          |   0.000|
+right       |    2.006(R)|    3.410(R)|XLXN_300          |   0.000|
+up          |    0.239(R)|    3.888(R)|XLXN_300          |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock s<1>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+down        |   -0.148(R)|    3.206(R)|XLXN_300          |   0.000|
+form<0>     |   -0.223(R)|    4.234(R)|XLXN_300          |   0.000|
+form<1>     |   -0.207(R)|    4.158(R)|XLXN_300          |   0.000|
+formm       |    1.137(R)|    3.713(R)|XLXN_300          |   0.000|
+left        |    1.247(R)|    3.802(R)|XLXN_300          |   0.000|
+right       |    1.801(R)|    3.662(R)|XLXN_300          |   0.000|
+up          |    0.034(R)|    4.140(R)|XLXN_300          |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock mclk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+buff<0>     |   11.053(R)|mclk_BUFGP        |   0.000|
+buff<1>     |    9.566(R)|mclk_BUFGP        |   0.000|
+buff<2>     |   10.188(R)|mclk_BUFGP        |   0.000|
+buff<3>     |   10.949(R)|mclk_BUFGP        |   0.000|
+buff<4>     |   10.984(R)|mclk_BUFGP        |   0.000|
+buff<5>     |    9.522(R)|mclk_BUFGP        |   0.000|
+buff<6>     |    9.915(R)|mclk_BUFGP        |   0.000|
+buff<7>     |    8.781(R)|mclk_BUFGP        |   0.000|
+dec4        |    9.337(R)|mclk_BUFGP        |   0.000|
+------------+------------+------------------+--------+
+
+Clock s<0> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+buff<0>     |   18.809(R)|XLXN_300          |   0.000|
+buff<1>     |   20.162(R)|XLXN_300          |   0.000|
+buff<2>     |   18.481(R)|XLXN_300          |   0.000|
+buff<3>     |   19.639(R)|XLXN_300          |   0.000|
+buff<4>     |   20.021(R)|XLXN_300          |   0.000|
+buff<5>     |   19.695(R)|XLXN_300          |   0.000|
+buff<6>     |   20.257(R)|XLXN_300          |   0.000|
+buff<7>     |   20.830(R)|XLXN_300          |   0.000|
+------------+------------+------------------+--------+
+
+Clock s<1> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+buff<0>     |   19.061(R)|XLXN_300          |   0.000|
+buff<1>     |   20.414(R)|XLXN_300          |   0.000|
+buff<2>     |   18.733(R)|XLXN_300          |   0.000|
+buff<3>     |   19.891(R)|XLXN_300          |   0.000|
+buff<4>     |   20.273(R)|XLXN_300          |   0.000|
+buff<5>     |   19.947(R)|XLXN_300          |   0.000|
+buff<6>     |   20.509(R)|XLXN_300          |   0.000|
+buff<7>     |   21.082(R)|XLXN_300          |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock mclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mclk           |    3.744|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock s<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+s<0>           |    2.782|         |         |         |
+s<1>           |    2.782|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock s<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+s<0>           |    2.782|         |         |         |
+s<1>           |    2.782|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+col<0>         |dec4           |    6.392|
+col<1>         |dec4           |    6.776|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Nov 27 10:28:40 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 171 MB
+
+
+

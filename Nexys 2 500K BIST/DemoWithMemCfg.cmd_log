@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.xst" -ofn "C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DemoWithMemCfg.ucf -p xc3s500e-fg320-5 "DemoWithMemCfg.ngc" DemoWithMemCfg.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr b -c 100 -o DemoWithMemCfg_map.ncd DemoWithMemCfg.ngd DemoWithMemCfg.pcf 
+par -w -intstyle ise -ol high -t 1 DemoWithMemCfg_map.ncd DemoWithMemCfg.ncd DemoWithMemCfg.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DemoWithMemCfg.ucf -p xc3s500e-fg320-5 "DemoWithMemCfg.ngc" DemoWithMemCfg.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr b -c 100 -o DemoWithMemCfg_map.ncd DemoWithMemCfg.ngd DemoWithMemCfg.pcf 
+par -w -intstyle ise -ol high -t 1 DemoWithMemCfg_map.ncd DemoWithMemCfg.ncd DemoWithMemCfg.pcf 
+xst -intstyle ise -ifn "C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.xst" -ofn "C:/Users/Err/Desktop/Nexys 2 500K BIST/DemoWithMemCfg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DemoWithMemCfg.ucf -p xc3s500e-fg320-5 "DemoWithMemCfg.ngc" DemoWithMemCfg.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr b -c 100 -o DemoWithMemCfg_map.ncd DemoWithMemCfg.ngd DemoWithMemCfg.pcf 
+par -w -intstyle ise -ol high -t 1 DemoWithMemCfg_map.ncd DemoWithMemCfg.ncd DemoWithMemCfg.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml DemoWithMemCfg.twx DemoWithMemCfg.ncd -o DemoWithMemCfg.twr DemoWithMemCfg.pcf -ucf DemoWithMemCfg.ucf 
+bitgen -intstyle ise -f DemoWithMemCfg.ut DemoWithMemCfg.ncd 

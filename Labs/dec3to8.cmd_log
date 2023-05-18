@@ -1,0 +1,2 @@
+vhdtdtfi -lib work dec3to8.vhd -prj AITlab11 -o dec3to8.spl -module dec3to8 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e dec3to8.spl {D:/Work 2017/AIT Lab/VHDL/AITlab11/dec3to8.sym} 

@@ -1,0 +1,29 @@
+Command line:
+   broq4_broq4_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62883
+
+Tue Dec 11 11:13:26 2018
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 669.565 Meg
+
+ Total Signals          : 163
+ Total Nets             : 59
+ Total Signal Drivers   : 34
+ Total Blocks           : 30
+ Total Primitive Blocks : 24
+ Total Processes        : 33
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 550
+Total Line Count : 123
+
+ Total Simulation Time: 1.38841 sec
+
+ Current Memory Usage: 669.565 Meg
+
+Tue Dec 11 11:20:25 2018
+

@@ -1,0 +1,202 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.3
+//  \   \         Application : sch2hdl
+//  /   /         Filename : top.vf
+// /___/   /\     Timestamp : 02/11/2014 13:48:26
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "D:/tERROR/Doktorat/VHDL 2013/VGA colors/top.vf" -w "D:/tERROR/Doktorat/VHDL 2013/VGA colors/top.sch"
+//Design Name: top
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module top(col, 
+           down, 
+           form, 
+           formm, 
+           left, 
+           mclk, 
+           res, 
+           right, 
+           s, 
+           up, 
+           buff, 
+           dec_inv, 
+           dec0_3, 
+           dec4);
+
+    input [1:0] col;
+    input down;
+    input [1:0] form;
+    input formm;
+    input left;
+    input mclk;
+    input res;
+    input right;
+    input [1:0] s;
+    input up;
+   output [7:0] buff;
+   output dec_inv;
+   output [3:0] dec0_3;
+   output dec4;
+   
+   wire XLXN_175;
+   wire [7:0] XLXN_246;
+   wire [7:0] XLXN_247;
+   wire [7:0] XLXN_248;
+   wire [7:0] XLXN_249;
+   wire [7:0] XLXN_250;
+   wire [7:0] XLXN_251;
+   wire [7:0] XLXN_252;
+   wire [7:0] XLXN_253;
+   wire [7:0] XLXN_254;
+   wire [7:0] XLXN_255;
+   wire [7:0] XLXN_256;
+   wire [7:0] XLXN_257;
+   wire [7:0] XLXN_258;
+   wire [7:0] XLXN_259;
+   wire [7:0] XLXN_260;
+   wire [7:0] XLXN_261;
+   wire XLXN_263;
+   wire [7:0] XLXN_271;
+   wire [7:0] XLXN_272;
+   wire [7:0] XLXN_273;
+   wire [7:0] XLXN_274;
+   wire [7:0] XLXN_275;
+   wire [7:0] XLXN_276;
+   wire [7:0] XLXN_277;
+   wire [7:0] XLXN_278;
+   wire [7:0] XLXN_279;
+   wire [7:0] XLXN_280;
+   wire [7:0] XLXN_281;
+   wire [7:0] XLXN_282;
+   wire [7:0] XLXN_286;
+   wire [7:0] XLXN_287;
+   wire [7:0] XLXN_288;
+   wire [7:0] XLXN_289;
+   wire XLXN_295;
+   wire XLXN_296;
+   wire XLXN_297;
+   wire [7:0] XLXN_298;
+   wire [7:0] XLXN_299;
+   wire XLXN_300;
+   wire [3:0] dec0_3_DUMMY;
+   
+   assign dec0_3[3:0] = dec0_3_DUMMY[3:0];
+   cnt  XLXI_39 (.clk(XLXN_175), 
+                .res(res), 
+                .dec_inv(dec_inv), 
+                .t(dec0_3_DUMMY[3:0]));
+   mux  XLXI_41 (.a(XLXN_246[7:0]), 
+                .b(XLXN_247[7:0]), 
+                .c(XLXN_248[7:0]), 
+                .d(XLXN_249[7:0]), 
+                .e(XLXN_250[7:0]), 
+                .f(XLXN_251[7:0]), 
+                .g(XLXN_252[7:0]), 
+                .h(XLXN_253[7:0]), 
+                .i(XLXN_255[7:0]), 
+                .j(XLXN_254[7:0]), 
+                .k(XLXN_256[7:0]), 
+                .l(XLXN_257[7:0]), 
+                .m(XLXN_258[7:0]), 
+                .n(XLXN_259[7:0]), 
+                .o(XLXN_260[7:0]), 
+                .p(XLXN_261[7:0]), 
+                .s(dec0_3_DUMMY[3:0]), 
+                .z(XLXN_299[7:0]));
+   control2  XLXI_68 (.clk(), 
+                     .col(), 
+                     .down(), 
+                     .form(), 
+                     .idec4(), 
+                     .left(), 
+                     .res(), 
+                     .right(), 
+                     .up(), 
+                     .a(XLXN_289[7:0]), 
+                     .b(XLXN_288[7:0]), 
+                     .c(XLXN_287[7:0]), 
+                     .d(XLXN_286[7:0]), 
+                     .e(XLXN_282[7:0]), 
+                     .f(XLXN_281[7:0]), 
+                     .g(XLXN_280[7:0]), 
+                     .h(XLXN_279[7:0]), 
+                     .i(XLXN_277[7:0]), 
+                     .j(XLXN_278[7:0]), 
+                     .k(XLXN_276[7:0]), 
+                     .l(XLXN_275[7:0]), 
+                     .m(XLXN_274[7:0]), 
+                     .n(XLXN_273[7:0]), 
+                     .o(XLXN_272[7:0]), 
+                     .odec4(XLXN_296), 
+                     .p(XLXN_271[7:0]));
+   mux  XLXI_69 (.a(XLXN_289[7:0]), 
+                .b(XLXN_288[7:0]), 
+                .c(XLXN_287[7:0]), 
+                .d(XLXN_286[7:0]), 
+                .e(XLXN_282[7:0]), 
+                .f(XLXN_281[7:0]), 
+                .g(XLXN_280[7:0]), 
+                .h(XLXN_279[7:0]), 
+                .i(XLXN_277[7:0]), 
+                .j(XLXN_278[7:0]), 
+                .k(XLXN_276[7:0]), 
+                .l(XLXN_275[7:0]), 
+                .m(XLXN_274[7:0]), 
+                .n(XLXN_273[7:0]), 
+                .o(XLXN_272[7:0]), 
+                .p(XLXN_271[7:0]), 
+                .s(dec0_3_DUMMY[3:0]), 
+                .z(XLXN_298[7:0]));
+   mux2  XLXI_70 (.a(XLXN_299[7:0]), 
+                 .b(XLXN_298[7:0]), 
+                 .c(XLXN_295), 
+                 .d(XLXN_296), 
+                 .s(XLXN_297), 
+                 .y(dec4), 
+                 .z(buff[7:0]));
+   div  XLXI_72 (.mclk(mclk), 
+                .res(res), 
+                .s(s[1:0]), 
+                .clk(XLXN_175), 
+                .clkk(XLXN_297), 
+                .dclk(XLXN_300), 
+                .dec4(XLXN_263));
+   control  XLXI_73 (.clk(XLXN_300), 
+                    .col(col[1:0]), 
+                    .down(down), 
+                    .form(form[1:0]), 
+                    .idec4(XLXN_263), 
+                    .left(left), 
+                    .res(formm), 
+                    .right(right), 
+                    .up(up), 
+                    .a(XLXN_246[7:0]), 
+                    .b(XLXN_247[7:0]), 
+                    .c(XLXN_248[7:0]), 
+                    .d(XLXN_249[7:0]), 
+                    .e(XLXN_250[7:0]), 
+                    .f(XLXN_251[7:0]), 
+                    .g(XLXN_252[7:0]), 
+                    .h(XLXN_253[7:0]), 
+                    .i(XLXN_255[7:0]), 
+                    .j(XLXN_254[7:0]), 
+                    .k(XLXN_256[7:0]), 
+                    .l(XLXN_257[7:0]), 
+                    .m(XLXN_258[7:0]), 
+                    .n(XLXN_259[7:0]), 
+                    .o(XLXN_260[7:0]), 
+                    .odec4(XLXN_295), 
+                    .p(XLXN_261[7:0]));
+endmodule

@@ -1,0 +1,492 @@
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -e 3 -s 5
+-n 3 -xml DemoWithMemCfg.twx DemoWithMemCfg.ncd -o DemoWithMemCfg.twr
+DemoWithMemCfg.pcf -ucf DemoWithMemCfg.ucf
+
+Design file:              DemoWithMemCfg.ncd
+Physical constraint file: DemoWithMemCfg.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2012-10-12)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock UsbClk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+UsbDB<0>    |    2.581(R)|   -0.286(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<1>    |    0.315(R)|    1.390(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<2>    |    3.418(R)|    1.545(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<3>    |    1.552(R)|    1.472(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<4>    |    0.759(R)|    1.239(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<5>    |    2.639(R)|   -0.005(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<6>    |    2.580(R)|    1.461(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<7>    |    0.896(R)|    1.293(R)|UsbClk_BUFGP      |   0.000|
+UsbDir      |    4.366(R)|   -0.775(R)|UsbClk_BUFGP      |   0.000|
+UsbFlag     |    5.277(R)|    0.536(R)|UsbClk_BUFGP      |   0.000|
+UsbMode     |    1.438(R)|    0.663(R)|UsbClk_BUFGP      |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock clk
+------------+------------+------------+-----------------------+--------+
+            |Max Setup to|Max Hold to |                       | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s)      | Phase  |
+------------+------------+------------+-----------------------+--------+
+EppAstb     |    4.160(R)|   -0.701(R)|clk_IBUFG              |   0.000|
+EppDstb     |    6.838(R)|   -0.507(R)|clk_IBUFG              |   0.000|
+MemDB<0>    |    1.101(R)|    0.967(R)|clk_IBUFG              |   0.000|
+MemDB<1>    |    1.747(R)|    0.537(R)|clk_IBUFG              |   0.000|
+MemDB<2>    |    1.144(R)|    0.696(R)|clk_IBUFG              |   0.000|
+MemDB<3>    |    1.763(R)|    0.695(R)|clk_IBUFG              |   0.000|
+MemDB<4>    |    1.773(R)|    0.307(R)|clk_IBUFG              |   0.000|
+MemDB<5>    |    2.038(R)|    0.066(R)|clk_IBUFG              |   0.000|
+MemDB<6>    |    2.082(R)|    0.424(R)|clk_IBUFG              |   0.000|
+MemDB<7>    |    3.433(R)|    0.259(R)|clk_IBUFG              |   0.000|
+MemDB<8>    |    2.177(R)|    1.271(R)|clk_IBUFG              |   0.000|
+MemDB<9>    |    1.207(R)|    1.123(R)|clk_IBUFG              |   0.000|
+MemDB<10>   |    1.596(R)|    1.107(R)|clk_IBUFG              |   0.000|
+MemDB<11>   |    1.654(R)|    1.035(R)|clk_IBUFG              |   0.000|
+MemDB<12>   |    2.111(R)|    0.892(R)|clk_IBUFG              |   0.000|
+MemDB<13>   |    2.022(R)|    0.820(R)|clk_IBUFG              |   0.000|
+MemDB<14>   |    2.404(R)|    0.617(R)|clk_IBUFG              |   0.000|
+MemDB<15>   |    2.015(R)|   -0.321(R)|clk_IBUFG              |   0.000|
+PS2C        |    4.565(R)|   -0.611(R)|instVgaPs2Demo/ck100MHz|   0.000|
+PS2D        |    4.751(R)|   -1.235(R)|instVgaPs2Demo/ck100MHz|   0.000|
+UsbDB<0>    |    5.164(R)|   -0.622(R)|clk_IBUFG              |   0.000|
+UsbDB<1>    |    4.793(R)|    0.561(R)|clk_IBUFG              |   0.000|
+UsbDB<2>    |    4.050(R)|    0.760(R)|clk_IBUFG              |   0.000|
+UsbDB<3>    |    5.146(R)|    0.499(R)|clk_IBUFG              |   0.000|
+UsbDB<4>    |    4.501(R)|    0.467(R)|clk_IBUFG              |   0.000|
+UsbDB<5>    |    5.754(R)|    0.404(R)|clk_IBUFG              |   0.000|
+UsbDB<6>    |    4.136(R)|    0.976(R)|clk_IBUFG              |   0.000|
+UsbDB<7>    |    4.433(R)|    0.435(R)|clk_IBUFG              |   0.000|
+UsbFlag     |    7.834(R)|   -1.783(R)|clk_IBUFG              |   0.000|
+UsbMode     |    2.926(R)|   -0.981(R)|clk_IBUFG              |   0.000|
+btn<0>      |    3.627(R)|    0.464(R)|clk_IBUFG              |   0.000|
+btn<1>      |    2.997(R)|    0.646(R)|clk_IBUFG              |   0.000|
+btn<2>      |    2.406(R)|    1.313(R)|clk_IBUFG              |   0.000|
+btn<3>      |    2.790(R)|    1.191(R)|clk_IBUFG              |   0.000|
+sw<0>       |    3.154(R)|    1.094(R)|clk_IBUFG              |   0.000|
+sw<1>       |    3.073(R)|    1.235(R)|clk_IBUFG              |   0.000|
+sw<2>       |    3.558(R)|    0.406(R)|clk_IBUFG              |   0.000|
+sw<3>       |    3.598(R)|    0.067(R)|clk_IBUFG              |   0.000|
+sw<4>       |    4.286(R)|    0.367(R)|clk_IBUFG              |   0.000|
+sw<5>       |    4.287(R)|    0.187(R)|clk_IBUFG              |   0.000|
+sw<6>       |    5.876(R)|   -1.019(R)|clk_IBUFG              |   0.000|
+sw<7>       |    4.399(R)|   -0.081(R)|clk_IBUFG              |   0.000|
+------------+------------+------------+-----------------------+--------+
+
+Clock UsbClk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+EppWait     |   14.701(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<0>    |   13.682(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<1>    |   12.953(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<2>    |   13.545(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<3>    |   12.912(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<4>    |   12.667(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<5>    |   13.021(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<6>    |   12.610(R)|UsbClk_BUFGP      |   0.000|
+UsbDB<7>    |   11.975(R)|UsbClk_BUFGP      |   0.000|
+UsbPktEnd   |    8.406(R)|UsbClk_BUFGP      |   0.000|
+UsbWr       |   13.657(R)|UsbClk_BUFGP      |   0.000|
+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+-----------------------+--------+
+            | clk (edge) |                       | Clock  |
+Destination |   to PAD   |Internal Clock(s)      | Phase  |
+------------+------------+-----------------------+--------+
+EppWait     |    9.808(R)|clk_IBUFG              |   0.000|
+FlashCS     |   14.230(R)|clk_IBUFG              |   0.000|
+FlashRp     |   11.233(R)|clk_IBUFG              |   0.000|
+HSYNC       |   10.477(R)|clk_IBUFG              |   0.000|
+            |    8.368(R)|instVgaPs2Demo/ck25MHz |   0.000|
+MemAdr<1>   |    9.732(R)|clk_IBUFG              |   0.000|
+MemAdr<2>   |    9.828(R)|clk_IBUFG              |   0.000|
+MemAdr<3>   |    9.587(R)|clk_IBUFG              |   0.000|
+MemAdr<4>   |    9.789(R)|clk_IBUFG              |   0.000|
+MemAdr<5>   |    9.915(R)|clk_IBUFG              |   0.000|
+MemAdr<6>   |    9.902(R)|clk_IBUFG              |   0.000|
+MemAdr<7>   |    9.474(R)|clk_IBUFG              |   0.000|
+MemAdr<8>   |    9.989(R)|clk_IBUFG              |   0.000|
+MemAdr<9>   |   10.147(R)|clk_IBUFG              |   0.000|
+MemAdr<10>  |   10.730(R)|clk_IBUFG              |   0.000|
+MemAdr<11>  |    9.894(R)|clk_IBUFG              |   0.000|
+MemAdr<12>  |   10.380(R)|clk_IBUFG              |   0.000|
+MemAdr<13>  |   10.606(R)|clk_IBUFG              |   0.000|
+MemAdr<14>  |   10.817(R)|clk_IBUFG              |   0.000|
+MemAdr<15>  |   10.374(R)|clk_IBUFG              |   0.000|
+MemAdr<16>  |   10.977(R)|clk_IBUFG              |   0.000|
+MemAdr<17>  |   10.611(R)|clk_IBUFG              |   0.000|
+MemAdr<18>  |   10.807(R)|clk_IBUFG              |   0.000|
+MemAdr<19>  |   11.055(R)|clk_IBUFG              |   0.000|
+MemAdr<20>  |   10.591(R)|clk_IBUFG              |   0.000|
+MemAdr<21>  |    9.209(R)|clk_IBUFG              |   0.000|
+MemAdr<22>  |   10.831(R)|clk_IBUFG              |   0.000|
+MemAdr<23>  |    9.850(R)|clk_IBUFG              |   0.000|
+MemDB<0>    |   12.082(R)|clk_IBUFG              |   0.000|
+MemDB<1>    |   12.419(R)|clk_IBUFG              |   0.000|
+MemDB<2>    |   12.429(R)|clk_IBUFG              |   0.000|
+MemDB<3>    |   13.182(R)|clk_IBUFG              |   0.000|
+MemDB<4>    |   13.337(R)|clk_IBUFG              |   0.000|
+MemDB<5>    |   13.317(R)|clk_IBUFG              |   0.000|
+MemDB<6>    |   14.021(R)|clk_IBUFG              |   0.000|
+MemDB<7>    |   13.760(R)|clk_IBUFG              |   0.000|
+MemDB<8>    |   12.194(R)|clk_IBUFG              |   0.000|
+MemDB<9>    |   12.646(R)|clk_IBUFG              |   0.000|
+MemDB<10>   |   12.933(R)|clk_IBUFG              |   0.000|
+MemDB<11>   |   13.093(R)|clk_IBUFG              |   0.000|
+MemDB<12>   |   12.204(R)|clk_IBUFG              |   0.000|
+MemDB<13>   |   13.325(R)|clk_IBUFG              |   0.000|
+MemDB<14>   |   13.782(R)|clk_IBUFG              |   0.000|
+MemDB<15>   |   13.980(R)|clk_IBUFG              |   0.000|
+MemOe       |   12.033(R)|clk_IBUFG              |   0.000|
+MemWr       |   11.837(R)|clk_IBUFG              |   0.000|
+PIO<0>      |   11.884(R)|clk_IBUFG              |   0.000|
+PIO<1>      |   11.474(R)|clk_IBUFG              |   0.000|
+PIO<2>      |   11.071(R)|clk_IBUFG              |   0.000|
+PIO<3>      |   11.969(R)|clk_IBUFG              |   0.000|
+PIO<4>      |   11.198(R)|clk_IBUFG              |   0.000|
+PIO<5>      |   11.670(R)|clk_IBUFG              |   0.000|
+PIO<6>      |   11.676(R)|clk_IBUFG              |   0.000|
+PIO<7>      |   11.553(R)|clk_IBUFG              |   0.000|
+PIO<8>      |   11.492(R)|clk_IBUFG              |   0.000|
+PIO<9>      |   10.942(R)|clk_IBUFG              |   0.000|
+PIO<10>     |   10.932(R)|clk_IBUFG              |   0.000|
+PIO<11>     |   10.730(R)|clk_IBUFG              |   0.000|
+PIO<12>     |   10.685(R)|clk_IBUFG              |   0.000|
+PIO<13>     |   10.865(R)|clk_IBUFG              |   0.000|
+PIO<14>     |   10.603(R)|clk_IBUFG              |   0.000|
+PIO<15>     |   10.591(R)|clk_IBUFG              |   0.000|
+PIO<16>     |   11.387(R)|clk_IBUFG              |   0.000|
+PIO<17>     |   10.844(R)|clk_IBUFG              |   0.000|
+PIO<18>     |   10.545(R)|clk_IBUFG              |   0.000|
+PIO<19>     |   10.317(R)|clk_IBUFG              |   0.000|
+PIO<20>     |   10.426(R)|clk_IBUFG              |   0.000|
+PIO<21>     |   10.355(R)|clk_IBUFG              |   0.000|
+PIO<22>     |    9.836(R)|clk_IBUFG              |   0.000|
+PIO<23>     |    9.845(R)|clk_IBUFG              |   0.000|
+PIO<24>     |   10.589(R)|clk_IBUFG              |   0.000|
+PIO<25>     |   10.635(R)|clk_IBUFG              |   0.000|
+PIO<26>     |   10.375(R)|clk_IBUFG              |   0.000|
+PIO<27>     |   10.064(R)|clk_IBUFG              |   0.000|
+PIO<28>     |   10.676(R)|clk_IBUFG              |   0.000|
+PIO<29>     |   10.870(R)|clk_IBUFG              |   0.000|
+PIO<30>     |   10.077(R)|clk_IBUFG              |   0.000|
+PIO<31>     |   10.572(R)|clk_IBUFG              |   0.000|
+PIO<32>     |   10.354(R)|clk_IBUFG              |   0.000|
+PIO<33>     |   10.790(R)|clk_IBUFG              |   0.000|
+PIO<34>     |   10.788(R)|clk_IBUFG              |   0.000|
+PIO<35>     |   10.702(R)|clk_IBUFG              |   0.000|
+PIO<36>     |   10.921(R)|clk_IBUFG              |   0.000|
+PIO<37>     |   10.663(R)|clk_IBUFG              |   0.000|
+PIO<38>     |   10.728(R)|clk_IBUFG              |   0.000|
+PIO<39>     |   10.743(R)|clk_IBUFG              |   0.000|
+PIO<40>     |   10.641(R)|clk_IBUFG              |   0.000|
+PIO<41>     |   10.583(R)|clk_IBUFG              |   0.000|
+PIO<42>     |   10.935(R)|clk_IBUFG              |   0.000|
+PIO<43>     |   10.933(R)|clk_IBUFG              |   0.000|
+PIO<44>     |   10.889(R)|clk_IBUFG              |   0.000|
+PIO<45>     |   11.384(R)|clk_IBUFG              |   0.000|
+PIO<46>     |   11.700(R)|clk_IBUFG              |   0.000|
+PIO<47>     |   11.479(R)|clk_IBUFG              |   0.000|
+PIO<48>     |   10.972(R)|clk_IBUFG              |   0.000|
+PIO<49>     |   11.537(R)|clk_IBUFG              |   0.000|
+PIO<50>     |   11.036(R)|clk_IBUFG              |   0.000|
+PIO<51>     |   11.697(R)|clk_IBUFG              |   0.000|
+PIO<52>     |   10.720(R)|clk_IBUFG              |   0.000|
+PIO<53>     |   11.233(R)|clk_IBUFG              |   0.000|
+PIO<54>     |   11.464(R)|clk_IBUFG              |   0.000|
+PIO<55>     |   11.682(R)|clk_IBUFG              |   0.000|
+PIO<56>     |   11.276(R)|clk_IBUFG              |   0.000|
+PIO<57>     |   11.067(R)|clk_IBUFG              |   0.000|
+PIO<58>     |   11.237(R)|clk_IBUFG              |   0.000|
+PIO<59>     |   10.551(R)|clk_IBUFG              |   0.000|
+PIO<60>     |   10.634(R)|clk_IBUFG              |   0.000|
+PIO<61>     |   11.491(R)|clk_IBUFG              |   0.000|
+PIO<62>     |   10.812(R)|clk_IBUFG              |   0.000|
+PIO<63>     |   10.662(R)|clk_IBUFG              |   0.000|
+PIO<64>     |   11.034(R)|clk_IBUFG              |   0.000|
+PIO<65>     |   11.264(R)|clk_IBUFG              |   0.000|
+PIO<66>     |   10.646(R)|clk_IBUFG              |   0.000|
+PIO<67>     |   11.047(R)|clk_IBUFG              |   0.000|
+PS2C        |    9.423(R)|clk_IBUFG              |   0.000|
+            |    8.374(R)|instVgaPs2Demo/ck100MHz|   0.000|
+PS2D        |    9.650(R)|clk_IBUFG              |   0.000|
+            |    8.959(R)|instVgaPs2Demo/ck100MHz|   0.000|
+RamAdv      |    9.382(R)|clk_IBUFG              |   0.000|
+RamCS       |   12.958(R)|clk_IBUFG              |   0.000|
+RamClk      |   10.156(R)|clk_IBUFG              |   0.000|
+RamCre      |   11.459(R)|clk_IBUFG              |   0.000|
+RamLB       |    9.674(R)|clk_IBUFG              |   0.000|
+RamUB       |    9.954(R)|clk_IBUFG              |   0.000|
+RsTx        |   11.567(R)|clk_IBUFG              |   0.000|
+UsbDB<0>    |   20.215(R)|clk_IBUFG              |   0.000|
+UsbDB<1>    |   19.653(R)|clk_IBUFG              |   0.000|
+UsbDB<2>    |   18.654(R)|clk_IBUFG              |   0.000|
+UsbDB<3>    |   20.294(R)|clk_IBUFG              |   0.000|
+UsbDB<4>    |   21.605(R)|clk_IBUFG              |   0.000|
+UsbDB<5>    |   20.952(R)|clk_IBUFG              |   0.000|
+UsbDB<6>    |   21.575(R)|clk_IBUFG              |   0.000|
+UsbDB<7>    |   20.525(R)|clk_IBUFG              |   0.000|
+VSYNC       |   10.320(R)|clk_IBUFG              |   0.000|
+            |    9.018(R)|instVgaPs2Demo/ck25MHz |   0.000|
+an<0>       |   10.977(R)|XLXN_1882              |   0.000|
+            |   11.579(R)|clk_IBUFG              |   0.000|
+an<1>       |    9.851(R)|XLXN_1882              |   0.000|
+            |   10.918(R)|clk_IBUFG              |   0.000|
+an<2>       |    9.950(R)|XLXN_1882              |   0.000|
+            |   10.536(R)|clk_IBUFG              |   0.000|
+an<3>       |    9.373(R)|XLXN_1882              |   0.000|
+            |   10.239(R)|clk_IBUFG              |   0.000|
+dp          |    9.194(R)|XLXN_1882              |   0.000|
+            |    8.281(R)|clk_IBUFG              |   0.000|
+led<0>      |    9.030(R)|XLXN_1882              |   0.000|
+led<1>      |    8.962(R)|XLXN_1882              |   0.000|
+led<2>      |    9.762(R)|XLXN_1882              |   0.000|
+led<3>      |   10.194(R)|XLXN_1882              |   0.000|
+led<4>      |    9.945(R)|XLXN_1882              |   0.000|
+led<5>      |   10.841(R)|XLXN_1882              |   0.000|
+led<6>      |   10.762(R)|XLXN_1882              |   0.000|
+led<7>      |   11.834(R)|XLXN_1882              |   0.000|
+seg<0>      |   17.365(R)|XLXN_1882              |   0.000|
+            |   17.518(R)|clk_IBUFG              |   0.000|
+seg<1>      |   15.591(R)|XLXN_1882              |   0.000|
+            |   16.941(R)|clk_IBUFG              |   0.000|
+seg<2>      |   16.829(R)|XLXN_1882              |   0.000|
+            |   18.016(R)|clk_IBUFG              |   0.000|
+seg<3>      |   16.464(R)|XLXN_1882              |   0.000|
+            |   18.501(R)|clk_IBUFG              |   0.000|
+seg<4>      |   16.170(R)|XLXN_1882              |   0.000|
+            |   17.127(R)|clk_IBUFG              |   0.000|
+seg<5>      |   15.364(R)|XLXN_1882              |   0.000|
+            |   17.100(R)|clk_IBUFG              |   0.000|
+seg<6>      |   14.125(R)|XLXN_1882              |   0.000|
+            |   17.086(R)|clk_IBUFG              |   0.000|
+vgaBlue<1>  |   10.407(R)|clk_IBUFG              |   0.000|
+            |    7.473(R)|instVgaPs2Demo/ck25MHz |   0.000|
+vgaBlue<2>  |   10.422(R)|clk_IBUFG              |   0.000|
+            |    7.778(R)|instVgaPs2Demo/ck25MHz |   0.000|
+vgaGreen<0> |   10.828(R)|clk_IBUFG              |   0.000|
+            |    7.854(R)|instVgaPs2Demo/ck25MHz |   0.000|
+vgaGreen<1> |   10.527(R)|clk_IBUFG              |   0.000|
+            |    7.357(R)|instVgaPs2Demo/ck25MHz |   0.000|
+vgaGreen<2> |   10.590(R)|clk_IBUFG              |   0.000|
+            |    7.574(R)|instVgaPs2Demo/ck25MHz |   0.000|
+vgaRed<0>   |   10.113(R)|clk_IBUFG              |   0.000|
+            |    6.956(R)|instVgaPs2Demo/ck25MHz |   0.000|
+vgaRed<1>   |   10.189(R)|clk_IBUFG              |   0.000|
+            |    7.287(R)|instVgaPs2Demo/ck25MHz |   0.000|
+vgaRed<2>   |   10.387(R)|clk_IBUFG              |   0.000|
+            |    7.435(R)|instVgaPs2Demo/ck25MHz |   0.000|
+------------+------------+-----------------------+--------+
+
+Clock to Setup on destination clock UsbClk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+UsbClk         |    8.183|         |         |         |
+clk            |    5.163|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   16.127|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+EppAstb        |UsbDB<0>       |   12.521|
+EppAstb        |UsbDB<1>       |   11.107|
+EppAstb        |UsbDB<2>       |    9.056|
+EppAstb        |UsbDB<3>       |    8.649|
+EppAstb        |UsbDB<4>       |    8.998|
+EppAstb        |UsbDB<5>       |    8.632|
+EppAstb        |UsbDB<6>       |    7.818|
+EppAstb        |UsbDB<7>       |    7.629|
+MemDB<0>       |UsbDB<0>       |   12.782|
+MemDB<1>       |UsbDB<1>       |   13.317|
+MemDB<2>       |UsbDB<2>       |   12.522|
+MemDB<3>       |UsbDB<3>       |   12.622|
+MemDB<4>       |UsbDB<4>       |   11.830|
+MemDB<5>       |UsbDB<5>       |   12.837|
+MemDB<6>       |UsbDB<6>       |   12.913|
+MemDB<7>       |UsbDB<7>       |   13.179|
+MemDB<8>       |UsbDB<0>       |   12.069|
+MemDB<9>       |UsbDB<1>       |   12.359|
+MemDB<10>      |UsbDB<2>       |   12.240|
+MemDB<11>      |UsbDB<3>       |   12.369|
+MemDB<12>      |UsbDB<4>       |   10.878|
+MemDB<13>      |UsbDB<5>       |   11.859|
+MemDB<14>      |UsbDB<6>       |   12.145|
+MemDB<15>      |UsbDB<7>       |   12.270|
+PIO<0>         |UsbDB<0>       |   15.452|
+PIO<1>         |UsbDB<1>       |   13.981|
+PIO<2>         |UsbDB<2>       |   15.850|
+PIO<3>         |UsbDB<3>       |   16.295|
+PIO<4>         |UsbDB<4>       |   16.626|
+PIO<5>         |UsbDB<5>       |   15.153|
+PIO<6>         |UsbDB<6>       |   16.740|
+PIO<7>         |UsbDB<7>       |   15.866|
+PIO<8>         |UsbDB<0>       |   15.088|
+PIO<9>         |UsbDB<1>       |   12.687|
+PIO<10>        |UsbDB<2>       |   14.242|
+PIO<11>        |UsbDB<3>       |   14.602|
+PIO<12>        |UsbDB<4>       |   15.534|
+PIO<13>        |UsbDB<5>       |   13.840|
+PIO<14>        |UsbDB<6>       |   14.982|
+PIO<15>        |UsbDB<7>       |   14.322|
+PIO<16>        |UsbDB<0>       |   15.533|
+PIO<17>        |UsbDB<1>       |   13.129|
+PIO<18>        |UsbDB<2>       |   15.296|
+PIO<19>        |UsbDB<3>       |   14.054|
+PIO<20>        |UsbDB<4>       |   14.277|
+PIO<21>        |UsbDB<5>       |   13.763|
+PIO<22>        |UsbDB<6>       |   13.943|
+PIO<23>        |UsbDB<7>       |   14.016|
+PIO<24>        |UsbDB<0>       |   14.454|
+PIO<25>        |UsbDB<1>       |   12.660|
+PIO<26>        |UsbDB<2>       |   14.953|
+PIO<27>        |UsbDB<3>       |   14.023|
+PIO<28>        |UsbDB<4>       |   15.550|
+PIO<29>        |UsbDB<5>       |   14.471|
+PIO<30>        |UsbDB<6>       |   15.445|
+PIO<31>        |UsbDB<7>       |   15.114|
+PIO<32>        |UsbDB<0>       |   15.316|
+PIO<33>        |UsbDB<1>       |   13.047|
+PIO<34>        |UsbDB<2>       |   15.424|
+PIO<35>        |UsbDB<3>       |   15.574|
+PIO<36>        |UsbDB<4>       |   14.758|
+PIO<37>        |UsbDB<5>       |   13.738|
+PIO<38>        |UsbDB<6>       |   15.108|
+PIO<39>        |UsbDB<7>       |   14.820|
+PIO<40>        |UsbDB<0>       |   13.982|
+PIO<41>        |UsbDB<1>       |   11.743|
+PIO<42>        |UsbDB<2>       |   13.651|
+PIO<43>        |UsbDB<3>       |   13.870|
+PIO<44>        |UsbDB<4>       |   14.416|
+PIO<45>        |UsbDB<5>       |   15.184|
+PIO<46>        |UsbDB<6>       |   15.686|
+PIO<47>        |UsbDB<7>       |   16.208|
+PIO<48>        |UsbDB<0>       |   15.658|
+PIO<49>        |UsbDB<1>       |   13.788|
+PIO<50>        |UsbDB<2>       |   15.033|
+PIO<51>        |UsbDB<3>       |   14.159|
+PIO<52>        |UsbDB<4>       |   14.766|
+PIO<53>        |UsbDB<5>       |   15.673|
+PIO<54>        |UsbDB<6>       |   15.870|
+PIO<55>        |UsbDB<7>       |   16.797|
+PIO<56>        |UsbDB<0>       |   13.982|
+PIO<57>        |UsbDB<1>       |   12.406|
+PIO<58>        |UsbDB<2>       |   14.898|
+PIO<59>        |UsbDB<3>       |   13.780|
+PIO<60>        |UsbDB<4>       |   13.901|
+PIO<61>        |UsbDB<5>       |   13.794|
+PIO<62>        |UsbDB<6>       |   15.024|
+PIO<63>        |UsbDB<7>       |   15.387|
+PIO<64>        |UsbDB<0>       |   15.608|
+PIO<65>        |UsbDB<1>       |   13.361|
+PIO<66>        |UsbDB<2>       |   14.271|
+PIO<67>        |UsbDB<3>       |   14.803|
+PS2C           |UsbDB<1>       |   14.646|
+PS2D           |UsbDB<0>       |   15.119|
+RsRx           |UsbDB<2>       |   14.938|
+UsbDir         |EppWait        |    9.999|
+UsbDir         |UsbAdr<1>      |    4.869|
+UsbDir         |UsbDB<0>       |    5.761|
+UsbDir         |UsbDB<1>       |    6.247|
+UsbDir         |UsbDB<2>       |    6.030|
+UsbDir         |UsbDB<3>       |    6.290|
+UsbDir         |UsbDB<4>       |    7.001|
+UsbDir         |UsbDB<5>       |    6.102|
+UsbDir         |UsbDB<6>       |    7.487|
+UsbDir         |UsbDB<7>       |    6.881|
+UsbDir         |UsbOe          |    6.304|
+UsbDir         |UsbWr          |    9.169|
+UsbFlag        |EppWait        |   11.102|
+UsbFlag        |UsbDB<0>       |    5.756|
+UsbFlag        |UsbDB<1>       |    6.242|
+UsbFlag        |UsbDB<2>       |    6.025|
+UsbFlag        |UsbDB<3>       |    6.285|
+UsbFlag        |UsbDB<4>       |    6.996|
+UsbFlag        |UsbDB<5>       |    6.097|
+UsbFlag        |UsbDB<6>       |    7.482|
+UsbFlag        |UsbDB<7>       |    6.876|
+UsbFlag        |UsbWr          |   10.058|
+UsbMode        |EppWait        |   10.132|
+UsbMode        |UsbDB<0>       |    9.851|
+UsbMode        |UsbDB<1>       |    8.525|
+UsbMode        |UsbDB<2>       |    9.410|
+UsbMode        |UsbDB<3>       |    8.861|
+UsbMode        |UsbDB<4>       |    9.034|
+UsbMode        |UsbDB<5>       |    8.185|
+UsbMode        |UsbDB<6>       |    7.839|
+UsbMode        |UsbDB<7>       |    7.388|
+UsbMode        |UsbOe          |    6.061|
+UsbMode        |UsbWr          |    8.747|
+btn<0>         |UsbDB<4>       |   15.666|
+btn<1>         |UsbDB<5>       |   15.128|
+btn<2>         |UsbDB<6>       |   15.181|
+btn<3>         |UsbDB<7>       |   14.322|
+sw<0>          |UsbDB<0>       |   14.384|
+sw<1>          |UsbDB<1>       |   11.379|
+sw<2>          |UsbDB<2>       |   13.086|
+sw<3>          |UsbDB<3>       |   13.633|
+sw<4>          |UsbDB<4>       |   15.679|
+sw<5>          |UsbDB<5>       |   15.315|
+sw<6>          |UsbDB<6>       |   17.640|
+sw<7>          |UsbDB<7>       |   15.822|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Nov 07 15:19:23 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 207 MB
+
+
+

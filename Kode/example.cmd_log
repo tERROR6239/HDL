@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Work 2017/AIT Lab/VHDL/Kode/example.xst" -ofn "D:/Work 2017/AIT Lab/VHDL/Kode/example.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc example.ucf -p xc3s250e-cp132-5 "example.ngc" example.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o example_map.ncd example.ngd example.pcf 
+par -w -intstyle ise -ol high -t 1 example_map.ncd example.ncd example.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml example.twx example.ncd -o example.twr example.pcf -ucf example.ucf 

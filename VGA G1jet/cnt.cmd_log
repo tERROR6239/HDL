@@ -1,0 +1,12 @@
+vhdtdtfi -lib work counter.vhd -prj Lab2 -o cnt.spl -module cnt -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e cnt.spl D:/Docs/Desktop/Lab2/cnt.sym 
+vhdtdtfi -lib work counter.vhd -prj Lab2 -o cnt.spl -module cnt -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e cnt.spl D:/Docs/Desktop/Lab2/cnt.sym 
+vhdtdtfi -lib work counter.vhd -prj Lab2 -o cnt.spl -module cnt -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e cnt.spl D:/Docs/Desktop/Lab2/cnt.sym 
+vhdtdtfi -lib work counter.vhd -prj Lab2 -o cnt.spl -module cnt -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e cnt.spl D:/Docs/Desktop/Lab2/cnt.sym 
+vhdtdtfi -lib work counter.vhd -prj Lab2 -o cnt.spl -module cnt -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e cnt.spl D:/Docs/Desktop/Lab2/cnt.sym 
+vhdtdtfi -lib work counter.vhd -prj Lab2 -o cnt.spl -module cnt -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e cnt.spl D:/Docs/Desktop/Lab2/cnt.sym 

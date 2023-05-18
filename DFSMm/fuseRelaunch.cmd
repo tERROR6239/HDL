@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/tERROR/Doktorat/VHDL 2014/DFSMm/fibtest_isim_beh.exe" -prj "D:/tERROR/Doktorat/VHDL 2014/DFSMm/fibtest_beh.prj" "work.fibtest" 

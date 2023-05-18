@@ -1,0 +1,14 @@
+AR mux behavioral "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/mux.vhd" sub00/vhpl07 1512027782
+EN mux2 NULL "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/mux2.vhd" sub00/vhpl10 1512027787
+AR div behavioral "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/div.vhd" sub00/vhpl05 1512027790
+EN cnt NULL "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/counter.vhd" sub00/vhpl00 1512027779
+EN div NULL "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/div.vhd" sub00/vhpl04 1512027789
+AR cnt behavioral "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/counter.vhd" sub00/vhpl01 1512027780
+AR mux2 behavioral "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/mux2.vhd" sub00/vhpl11 1512027788
+AR control2 behavioral "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/control2.vhd" sub00/vhpl09 1512027786
+EN top NULL "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/top.vhf" sub00/vhpl12 1512027791
+EN control NULL "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/counter1.vhd" sub00/vhpl02 1512027783
+EN mux NULL "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/mux.vhd" sub00/vhpl06 1512027781
+AR control behavioral "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/counter1.vhd" sub00/vhpl03 1512027784
+EN control2 NULL "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/control2.vhd" sub00/vhpl08 1512027785
+AR top behavioral "D:/Work 2017/AIT Lab/VHDL/VHDL 2013/VGA G1jet/top.vhf" sub00/vhpl13 1512027792

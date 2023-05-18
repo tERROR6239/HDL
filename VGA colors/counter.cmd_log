@@ -1,0 +1,16 @@
+vhdtdtfi -lib work counter.vhd -prj Lab2 -o counter.spl -module counter -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter.spl {C:/Documents and Settings/Lab2/counter.sym} 
+vhdtdtfi -lib work counter.vhd -prj Lab2 -o counter.spl -module counter -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter.spl {C:/Documents and Settings/Lab2/counter.sym} 
+vhdtdtfi -lib work counter.vhd -prj Lab2 -o counter.spl -module counter -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter.spl {C:/Documents and Settings/Lab2/counter.sym} 
+vhdtdtfi -lib work counter1.vhd -prj Lab2 -o counter.spl -module counter -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter.spl D:/Docs/Desktop/Lab2/counter.sym 
+vhdtdtfi -lib work counter1.vhd -prj Lab2 -o counter.spl -module counter -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter.spl D:/Docs/Desktop/Lab2/counter.sym 
+vhdtdtfi -lib work counter1.vhd -prj Lab2 -o counter.spl -module counter -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter.spl D:/Docs/Desktop/Lab2/counter.sym 
+vhdtdtfi -lib work counter1.vhd -prj Lab2 -o counter.spl -module counter -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter.spl D:/Docs/Desktop/Lab2/counter.sym 
+vhdtdtfi -lib work counter1.vhd -prj Lab2 -o counter.spl -module counter -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter.spl D:/Docs/Desktop/Lab2/counter.sym 

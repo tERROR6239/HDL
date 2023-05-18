@@ -1,0 +1,50 @@
+Release 14.3 - xst P.40xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/tERROR/Doktorat/VHDL 2014/DFSM/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to D:/tERROR/Doktorat/VHDL 2014/DFSM/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" in Library work.
+Entity <fib> compiled.
+ERROR:HDLParsers:3313 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 22. Undefined symbol 'elk'.  Should it be: clk?
+ERROR:HDLParsers:1209 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 22. elk: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 25. Undefined symbol 'tate_reg'.
+ERROR:HDLParsers:163 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 27. Unexpected symbol read: _.
+ERROR:HDLParsers:3312 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 27. Undefined symbol 't1'.
+ERROR:HDLParsers:1209 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 27. t1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 27. parse error, unexpected IDENTIFIER, expecting OPENPAR or TICK or LSQBRACK
+ERROR:HDLParsers:808 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 29. = can not have such operands in this context.
+ERROR:HDLParsers:1217 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 30. Symbol state can't be used as a prefix in a selected name.
+ERROR:HDLParsers:1212 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 30. Invalid selected name state.reg.
+ERROR:HDLParsers:164 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 30. parse error, unexpected NEXT, expecting ALL or IDENTIFIER or CHARACTER_LITERAL or STRING_LITERAL
+ERROR:HDLParsers:3313 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 56. Undefined symbol 't1_next'.  Should it be: tl_next or t0_next?
+ERROR:HDLParsers:3312 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 58. Undefined symbol 'l'.
+ERROR:HDLParsers:1209 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 58. l: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 71. Undefined symbol 't1_reg'.  Should it be: tl_reg or t0_reg?
+ERROR:HDLParsers:1209 - "D:/tERROR/Doktorat/VHDL 2014/DFSM/DFSM.vhd" Line 71. t1_reg: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> 
+
+Total memory usage is 213812 kilobytes
+
+Number of errors   :   16 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

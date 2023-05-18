@@ -1,0 +1,5 @@
+set -tmpdir "D:/tERROR/Doktorat/VHDL 2014/DFSM/xst/projnav.tmp"
+set -xsthdpdir "D:/tERROR/Doktorat/VHDL 2014/DFSM/xst"
+elaborate
+-ifn DFSM.prj
+-ifmt mixed

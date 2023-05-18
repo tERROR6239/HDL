@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Err\Desktop\Nexys 2 500K BIST\DemoWithMemCfg.ncd
+OUTFILE=C:\Users\Err\Desktop\Nexys 2 500K BIST\DemoWithMemCfg.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\Err\Desktop\Nexys 2 500K BIST
+LICENSE=WebPack
+USER_INFO=205585413_0_0_757

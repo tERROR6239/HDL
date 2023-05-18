@@ -1,0 +1,13 @@
+AR mux behavioral "D:/Work 2017/AIT Lab/VHDL/VGA colors/mux.vhd" sub00/vhpl07 1511771291
+EN mux2 NULL "D:/Work 2017/AIT Lab/VHDL/VGA colors/mux2.vhd" sub00/vhpl10 1511771292
+AR div behavioral "D:/Work 2017/AIT Lab/VHDL/VGA colors/div.vhd" sub00/vhpl05 1511771289
+EN cnt NULL "D:/Work 2017/AIT Lab/VHDL/VGA colors/counter.vhd" sub00/vhpl00 1511771284
+EN div NULL "D:/Work 2017/AIT Lab/VHDL/VGA colors/div.vhd" sub00/vhpl04 1511771288
+AR cnt behavioral "D:/Work 2017/AIT Lab/VHDL/VGA colors/counter.vhd" sub00/vhpl01 1511771285
+AR mux2 behavioral "D:/Work 2017/AIT Lab/VHDL/VGA colors/mux2.vhd" sub00/vhpl11 1511771293
+AR control2 behavioral "D:/Work 2017/AIT Lab/VHDL/VGA colors/control2.vhd" sub00/vhpl09 1511771283
+MO top NULL top.vf vlg6F/top.bin 1511771282
+EN control NULL "D:/Work 2017/AIT Lab/VHDL/VGA colors/counter1.vhd" sub00/vhpl02 1511771286
+EN mux NULL "D:/Work 2017/AIT Lab/VHDL/VGA colors/mux.vhd" sub00/vhpl06 1511771290
+AR control behavioral "D:/Work 2017/AIT Lab/VHDL/VGA colors/counter1.vhd" sub00/vhpl03 1511771287
+EN control2 NULL "D:/Work 2017/AIT Lab/VHDL/VGA colors/control2.vhd" sub00/vhpl08 1511771282

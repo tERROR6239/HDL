@@ -1,0 +1,4 @@
+vhdtdtfi -lib work Decoder1_4.vhd -prj Lab2 -o dec1.spl -module dec1 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e dec1.spl D:/Docs/Desktop/Lab2/dec1.sym 
+vhdtdtfi -lib work Decoder1_4.vhd -prj Lab2 -o dec1.spl -module dec1 -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e dec1.spl D:/Docs/Desktop/Lab2/dec1.sym 

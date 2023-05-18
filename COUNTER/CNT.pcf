@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Dec 11 11:46:37 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Clock_enable" LOCATE = SITE "C11" LEVEL 1;
+COMP "Output<0>" LOCATE = SITE "P6" LEVEL 1;
+COMP "Output<1>" LOCATE = SITE "P7" LEVEL 1;
+COMP "Output<2>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Output<3>" LOCATE = SITE "M5" LEVEL 1;
+COMP "Clock" LOCATE = SITE "A7" LEVEL 1;
+COMP "Reset" LOCATE = SITE "G12" LEVEL 1;
+NET "Clock_BUFGP/IBUFG" BEL "Clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
